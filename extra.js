@@ -19,15 +19,17 @@
 
 
 
+// 2nd 
 
 function numPow(num, exp){
     if (exp === 0) {
 return num = 1;
 
     }
-    numPow();
-    return Math.pow(num, exp);
+let result = Math.pow(num, exp);
+   return result
 }
 
 console.log(numPow(5,2));
 console.log(numPow(5, 0));
+console.log(numPow(3, 7));
